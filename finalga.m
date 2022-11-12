@@ -5,7 +5,7 @@ close all
  total_jobs=120;
 for i=1:total_jobs
     jobs(i,1)=i; %id
-    jobs(i,2)=randi([200,310],1,1); %burst
+    jobs(i,2)=randi([200,300],1,1); %burst
     jobs(i,3)=randi([1,3],1,1); %resources
     jobs(i,4)=0; %wait
     jobs(i,5)=0; %status
